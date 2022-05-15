@@ -71,7 +71,7 @@ int is_valid(Node* n){
       {
         if(vectorAux[aux->sudo[j][i]] == 0)
         {
-          vectorAux[aux->sudo[i][j]] = 1;
+          vectorAux[aux->sudo[j][i]] = 1;
         }
         else return 0;
       }
