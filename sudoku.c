@@ -58,7 +58,7 @@ int is_valid(Node* n){
         {
           printf("%d\n", vectorAux[aux->sudo[i][j]]);
           vectorAux[aux->sudo[i][j]] = 1;
-          printf("%d\n", vectorAux[aux->sudo[i][j]);
+          printf("%d\n", vectorAux[aux->sudo[i][j]]);
         }
         else return 0;
       }
