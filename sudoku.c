@@ -78,16 +78,16 @@ int is_valid(Node* n){
     }
   }
   
-  for (size_t k = 1; k < 10; k++)
+  for (size_t k = 0; k < 9; k++)
   {
     int vectorAux [10] = {};
-    int aux2 = k,p; 
+    int aux2 = k;
+    int p; 
     for(p=0;p<9;p++){
         int i=3*(aux2/3) + (p/3) ;
         int j=3*(aux2%3) + (p%3) ;
-        if (vectorAux[n->sudo[i][j]] == 0)
-          vectorAux[n->sudo[i][j]] = 1;
-        else return 0;
+        printf("%d ",n->sudo[i][j]);
+        if(p%3 == 2) printf("\n");
     }
   }
   

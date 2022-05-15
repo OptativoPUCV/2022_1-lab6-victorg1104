@@ -153,3 +153,14 @@ Sun May 15 01:24:26 HSP 2022:
  tests:  2|4
 total_score: 15/70
 7ba35e1
+Sun May 15 01:27:29 HSP 2022: 
+ sudoku.c | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+In file included from test.c:5:0:
+sudoku.c: In function 'is_valid':
+sudoku.c:83:9: error: unused variable 'vectorAux' [-Werror=unused-variable]
+     int vectorAux [10] = {};
+         ^~~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+ab0f812
