@@ -164,3 +164,9 @@ sudoku.c:83:9: error: unused variable 'vectorAux' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 ab0f812
+Sun May 15 01:27:41 HSP 2022: 
+ sudoku.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  5|3
+total_score: 35/70
+e848c95

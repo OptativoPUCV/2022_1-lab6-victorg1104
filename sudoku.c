@@ -80,7 +80,6 @@ int is_valid(Node* n){
   
   for (size_t k = 0; k < 9; k++)
   {
-    int vectorAux [10] = {};
     int aux2 = k;
     int p; 
     for(p=0;p<9;p++){
