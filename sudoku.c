@@ -55,7 +55,9 @@ int is_valid(Node* n){
       if (aux->sudo[i][j] != 0)
       {
         if(vectorAux[aux->sudo[i][j]] == 0)
+        {
           vectorAux[aux->sudo[i][j]] = 1;
+        }
         else return 0;
       }
     }
@@ -74,7 +76,9 @@ int is_valid(Node* n){
       if (aux->sudo[j][i] != 0)
       {
         if(vectorAux[aux->sudo[j][i]] == 0)
+        {
           vectorAux[aux->sudo[j][i]] = 1;
+        }
         else return 0;
       }
     }
