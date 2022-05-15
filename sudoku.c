@@ -74,7 +74,7 @@ int is_valid(Node* n){
     }
     
   }
-
+/*
   for (size_t i = 0; i < 9; i++)
   {
     vectorAux[i] = 0;
@@ -91,6 +91,7 @@ int is_valid(Node* n){
         else return 0;
     }
   }
+  */
     return 1;
 }
 
