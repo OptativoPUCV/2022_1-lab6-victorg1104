@@ -150,6 +150,7 @@ Node* DFS(Node* initial, int* cont){
 
   while (get_size(S) != 0)
   {
+    cont++;
     aux = top(S);
     pop(S);
 
@@ -165,15 +166,13 @@ Node* DFS(Node* initial, int* cont){
     }
 
     free(aux);
-
-    cont++;
   }
   return NULL;
 }
 
 
 
-/*
+
 int main( int argc, char *argv[] ){
 
   Node* initial= read_file("s12a.txt");;
@@ -184,4 +183,3 @@ int main( int argc, char *argv[] ){
   print_node(final);
 
   return 0;
-}*/
