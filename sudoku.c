@@ -55,11 +55,11 @@ List* get_adj_nodes(Node* n){
 
     for (size_t i = 0; i <9 ; i++)
     {
-      for (size_t j = 0; i < 9; j++)
+      for (size_t j = 0; j < 9; j++)
       {
         if (aux->sudo[i][j] == 0)
         {
-          for (size_t k = 1; i <= 9; i++)
+          for (size_t k = 1; k <= 9; k++)
           {
             aux->sudo[i][j] = k;
 
