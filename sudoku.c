@@ -77,14 +77,10 @@ int is_valid(Node* n){
       }
     }
   }
-/*
-  for (size_t i = 0; i < 9; i++)
-  {
-    vectorAux[i] = 0;
-  }
   
   for (size_t k = 0; k < 9; k++)
   {
+    int vectorAux [10] = {};
     int aux2 = k,p; 
     for(p=0;p<9;p++){
         int i=3*(aux2/3) + (p/3) ;
@@ -94,7 +90,7 @@ int is_valid(Node* n){
         else return 0;
     }
   }
-  */
+  
     return 1;
 }
 
