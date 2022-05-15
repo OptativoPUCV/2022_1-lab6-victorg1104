@@ -148,7 +148,7 @@ Node* DFS(Node* initial, int* cont){
   Node* aux;
   push(S, initial);
 
-  while (size(S) != 0)
+  while (get_size(S) != 0)
   {
     aux = top(S);
     pop(S);
