@@ -53,7 +53,10 @@ int is_valid(Node* n){
     for (size_t j = 0; j < 9; j++)
     {
       if (vectorAux[aux->sudo[i][j]] == 0)
+      {
+        printf("%d", vectorAux[aux->sudo[i][j]]);
         vectorAux[aux->sudo[i][j]] = 1;
+      }
       else return 0;
     }
   }
