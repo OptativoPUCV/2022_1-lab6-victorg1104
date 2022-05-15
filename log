@@ -48,3 +48,14 @@ Sun May 15 00:12:41 HSP 2022:
  tests:  2|4
 total_score: 15/70
 05bc01b
+Sun May 15 01:01:08 HSP 2022: 
+ sudoku.c | 47 +++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 47 insertions(+)
+In file included from test.c:5:0:
+sudoku.c: In function 'is_valid':
+sudoku.c:50:7: error: unused variable 'aux2' [-Werror=unused-variable]
+   int aux2;
+       ^~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+87a7b6a
