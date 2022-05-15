@@ -44,19 +44,19 @@ void print_node(Node* n){
 }
 
 int is_valid(Node* n){
-
-  int vectorAux [10] = {};
   Node* aux = copy(n);
 
   for (size_t i = 0; i < 9; i++)
   {
+    int vectorAux [10] = {};
     for (size_t j = 0; j < 9; j++)
     {
       if (aux->sudo[i][j] != 0)
       {
         if(vectorAux[aux->sudo[i][j]] == 0)
         {
-          printf("%d\n", vectorAux[aux->sudo[i][j]]);
+          printf("%d", aux->sudo[i][j]);
+          printf("%d", vectorAux[aux->sudo[i][j]]);
           vectorAux[aux->sudo[i][j]] = 1;
           printf("%d\n", vectorAux[aux->sudo[i][j]]);
         }
@@ -67,24 +67,18 @@ int is_valid(Node* n){
 
   for (size_t i = 0; i < 9; i++)
   {
-    vectorAux[i] = 0;
-  }
-  
-
-  for (size_t i = 0; i < 9; i++)
-  {
+    int vectorAux [10] = {};
     for (size_t j = 0; j < 9; j++)
     {
       if (aux->sudo[j][i] != 0)
       {
         if(vectorAux[aux->sudo[j][i]] == 0)
         {
-          vectorAux[aux->sudo[j][i]] = 1;
+          vectorAux[aux->sudo[i][j]] = 1;
         }
         else return 0;
       }
     }
-    
   }
 /*
   for (size_t i = 0; i < 9; i++)
