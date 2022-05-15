@@ -8,3 +8,14 @@ Sun May 15 00:04:00 HSP 2022:
  tests:  1|5
 total_score: 5/70
 b1153e0
+Sun May 15 00:09:07 HSP 2022: 
+ sudoku.c | 19 +++++++++++++------
+ 1 file changed, 13 insertions(+), 6 deletions(-)
+In file included from test.c:5:0:
+sudoku.c: In function 'get_adj_nodes':
+sudoku.c:73:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+e2b8467
