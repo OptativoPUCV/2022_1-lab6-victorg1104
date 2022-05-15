@@ -31,3 +31,14 @@ Sun May 15 00:11:37 HSP 2022:
  tests:  0|5
 total_score: 0/70
 4d0c13a
+Sun May 15 00:12:23 HSP 2022: 
+ sudoku.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+test.c: In function 'get_adj_nodes':
+sudoku.c:60:25: error: 'aux' may be used uninitialized in this function [-Werror=maybe-uninitialized]
+         if (aux->sudo[i][j] == 0)
+             ~~~~~~~~~~~~^~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+38fad67
