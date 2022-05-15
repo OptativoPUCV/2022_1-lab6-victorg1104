@@ -42,3 +42,9 @@ sudoku.c:60:25: error: 'aux' may be used uninitialized in this function [-Werror
 cc1.exe: all warnings being treated as errors
 Compilation failed
 38fad67
+Sun May 15 00:12:41 HSP 2022: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|4
+total_score: 15/70
+05bc01b
