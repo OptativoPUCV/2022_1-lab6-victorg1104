@@ -47,7 +47,6 @@ int is_valid(Node* n){
 
   int vectorAux [10] = {};
   Node* aux = copy(n);
-  int aux2;
 
   for (size_t i = 0; i < 9; i++)
   {

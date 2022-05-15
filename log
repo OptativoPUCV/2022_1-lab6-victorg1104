@@ -59,3 +59,9 @@ sudoku.c:50:7: error: unused variable 'aux2' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 87a7b6a
+Sun May 15 01:01:24 HSP 2022: 
+ sudoku.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  2|4
+total_score: 15/70
+e1266d3
